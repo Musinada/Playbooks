@@ -234,13 +234,14 @@ ssh <ip address of target ec2 instance>
 
 #####################################################################################
 # Author: Anil
-# Date: 26-8-23
-# Version : 1.0
+# Date: 29-8-23
+# Version : 1.1
 # Ansible Playbook Automation
 #
 # Pre-requisites:
 # How to run Ansible playbook from Jenkins pipeline job | Automate EC2 provisioning in AWS using Jenkins and Ansible Playbook |
 # Create new EC2 instance in AWS cloud using Ansible Playbook and Jenkins Pipeline
+# https://www.coachdevops.com/2022/12/automate-ec2-provisioning-in-aws-using.html
 #####################################################################################
 
 # Pre-requisites:
