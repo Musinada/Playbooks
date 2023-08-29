@@ -201,8 +201,24 @@ ansible-playbook terminate.yml -e ec2_id=i-xxxx
 #####################################################################################
 # Create a new instance first by the ansible playbook
 # Establish key setup between AnsibleMgmNode to New Ec2 Instance
-# create Java playbook, Jenkins playbook, maven playbook
 
+ssh-keygen
+# Enter twice here to get key
+
+#next I can copy their public key
+sudo cat ~/.ssh/id_rsa.pub
+
+# it generates the public key 
+# we are going to upload this key in the following directory of the creaed new ec2 machine
+sudo vi ~/ssh/authorized_keys
+
+# Now shh the ip address from the ansible managment node to  target ec2 instance  
+ssh <ip address of target ec2 instance>
+
+# getting an error to connect target ec2 machine
+
+
+# Now, go ahead and create Java playbook, Jenkins playbook, maven playbook
 
 # Pre-requisites:
 # Setup Ansible on your EC2 instance.
