@@ -41,11 +41,14 @@ ansible --version
 # Ansible Playbook Automtaion
 #
 # Pre-requisites:
-# Ansible Playbook for provisioning a new EC2 instance in AWS | Create new EC2 instance in AWS cloud using Ansible Playbook
+# Ansible Playbook for provisioning a new EC2 instance in AWS | 
+#Create new EC2 instance in AWS cloud using Ansible Playbook
 #####################################################################################
 # Steps to create EC2 instance using Ansible:
 
 # Login to EC2 instance using Git bash or ITerm/putty where you installed Ansible.
+
+# Here provide EC2adminfullacces : IAM role and attach it to your ansible ec2 machine
 # Execute the below command:
 
 
@@ -76,13 +79,13 @@ sudo vi create_ec2.yml
 #   tags: provisioning
 #
 #   vars:
-#     keypair: yourEC2Key
+#     keypair: anil2
 #     instance_type: t2.small
-#     image: ami-007855ac798b5175e
+#     image: ami-0f5ee92e2d63afc18
 #     wait: yes
 #     group: webserver
 #     count: 1
-#     region: us-east-1
+#     region: ap-south-1
 #     security_group: my-jenkins-security-grp
    
 #   tasks:
