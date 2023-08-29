@@ -43,6 +43,7 @@ ansible --version
 # Pre-requisites:
 # Ansible Playbook for provisioning a new EC2 instance in AWS | 
 #Create new EC2 instance in AWS cloud using Ansible Playbook
+# https://www.coachdevops.com/2021/07/ansible-playbook-for-provisioning-new.html
 #####################################################################################
 # Steps to create EC2 instance using Ansible:
 
@@ -141,7 +142,8 @@ ansible-playbook create_ec2.yml
 #
 # Pre-requisites:
 # Terminate EC2 instances Ansible Playbook Example | How to terminate EC2 instances using Ansible playbook?
-#####################################################################################
+# https://www.cidevops.com/2018/03/terminate-ec2-ansible-playbook-example.html
+####################################################################################
 
 # Login to EC2 instance using Git bash or ITerm/putty where you installed Ansible. 
 # Execute the below command to edit Ansible hosts or inventory file
@@ -195,6 +197,7 @@ ansible-playbook terminate.yml -e ec2_id=i-xxxx
 #
 # Pre-requisites:
 # How to setup Jenkins on Ubuntu using Ansible playbook | Setup Java, Jenkins, Maven on Ubuntu EC2 using Ansible Playbook
+# https://www.coachdevops.com/2021/08/how-to-setup-jenkins-on-ubuntu-using.html
 #####################################################################################
 # Create a new instance first by the ansible playbook
 # Establish key setup between AnsibleMgmNode to New Ec2 Instance
