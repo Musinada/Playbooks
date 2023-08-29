@@ -43,6 +43,11 @@ ansible --version
 # Pre-requisites:
 # Ansible Playbook for provisioning a new EC2 instance in AWS | Create new EC2 instance in AWS cloud using Ansible Playbook
 #####################################################################################
+# Steps to create EC2 instance using Ansible:
+
+# Login to EC2 instance using Git bash or ITerm/putty where you installed Ansible.
+# Execute the below command:
+
 
 # Create an Inventory file first
 sudo mkdir /etc/ansible
