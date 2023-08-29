@@ -3,8 +3,8 @@
 set -x
 #####################################################################################
 # Author: Anil
-# Date: 26-8-23
-# Version : 1.0
+# Date: 29-8-23
+# Version : 1.1
 # Ansible Playbook Automation
 #
 # Pre-requisites:
@@ -36,8 +36,8 @@ ansible --version
 
 #####################################################################################
 # Author: Anil
-# Date: 26-8-23
-# Version : 1.0
+# Date: 29-8-23
+# Version : 1.1
 # Ansible Playbook Automtaion
 #
 # Pre-requisites:
@@ -135,8 +135,8 @@ ansible-playbook create_ec2.yml
 
 #####################################################################################
 # Author: Anil
-# Date: 26-8-23
-# Version : 1.0
+# Date: 29-8-23
+# Version : 1.1
 # Ansible Playbook Automtaion
 #
 # Pre-requisites:
@@ -189,13 +189,17 @@ sudo vi terminate.yml
 
 #####################################################################################
 # Author: Anil
-# Date: 26-8-23
-# Version : 1.0
+# Date: 29-8-23
+# Version : 1.1
 # Ansible Playbook Automation
 #
 # Pre-requisites:
 # How to setup Jenkins on Ubuntu using Ansible playbook | Setup Java, Jenkins, Maven on Ubuntu EC2 using Ansible Playbook
 #####################################################################################
+# Create a new instance first by the ansible playbook
+# Establish key setup between AnsibleMgmNode to New Ec2 Instance
+# create Java playbook, Jenkins playbook, maven playbook
+
 
 # Pre-requisites:
 # Setup Ansible on your EC2 instance.
