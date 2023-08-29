@@ -143,16 +143,17 @@ ansible-playbook create_ec2.yml
 # Terminate EC2 instances Ansible Playbook Example | How to terminate EC2 instances using Ansible playbook?
 #####################################################################################
 
-# Login to EC2 instance using Git bash or ITerm/putty where you installed Ansible. Execute the below command to edit Ansible hosts or inventory file
+# Login to EC2 instance using Git bash or ITerm/putty where you installed Ansible. 
+# Execute the below command to edit Ansible hosts or inventory file
 sudo vi /etc/ansible/hosts 
 
 # Add the below two lines in the end of the file:
-[localhost]
-local
+# [localhost]
+# local
 
 # save the file and come out of it.
 
-# sudo vi terminate.yml 
+sudo vi terminate.yml 
 ---
 # - name: ec2 provisioning using Ansible
 #   hosts: local
@@ -163,7 +164,7 @@ local
 #   gather_facts: False
 #   connection: local
 #   vars:
-#     - region: 'us-east-1'
+#     - region: 'ap-south-1'
 #     - ec2_id: 'i-05f39cfb80c97df38'
 #   tasks:
 #     - name: Terminate instances
