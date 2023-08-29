@@ -6,14 +6,14 @@
    tags: provisioning
 
    vars:
-     keypair: mySep22Key
+     keypair: anil1
      instance_type: t2.micro
-     image: ami-0ee23bfc74a881de5
+     image: ami-0f5ee92e2d63afc18
      wait: yes
      group: webserver
      count: 1
-     region: us-east-1
-     security_group: ec2-security-group
+     region: ap-south-1
+     security_group: anilSG1
    
    tasks:
 
