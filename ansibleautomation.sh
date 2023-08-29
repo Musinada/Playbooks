@@ -176,7 +176,7 @@ sudo vi terminate.yml
 #
 # This playbook can be executed by two ways. Either mention instance ID in the ansible playbook or pass as an argument. Intstance Id can be taken from AWS mgmt console.
 
-# ansible-playbook terminate.yml -e ec2_id=i-xxxx
+ansible-playbook terminate.yml -e ec2_id=i-xxxx
 # PLAY [ec2 provisioning using Ansible] *********************************************************************
 # PLAY [local] **********************************************************************************************
 # TASK [Terminate instances] ********************************************************************************
