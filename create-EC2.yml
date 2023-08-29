@@ -13,7 +13,7 @@
      group: webserver
      count: 1
      region: ap-south-1
-     security_group: anilSG1
+     security_group: aniljenkinsSG
    
    tasks:
 
